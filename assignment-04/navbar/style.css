@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 500px;
+  border: 1px solid green;
+}
+.box img {
+  max-width: 100%;
+}
+.box-2{
+    
+    width: 300px;
+    border: 1px solid green;
+    overflow: hidden;
+}
+.box-2 p{
+    white-space: nowrap;
+}
+.first-menu{
+    background: #750E21;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.first-menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+}
