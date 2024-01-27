@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-menu {
+    background: gray;
+    text-align: right;
+}
+.nav-menu a {
+    font-size: 18px;
+    padding: 12px 15px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu-2 {
+    margin-top: 30px;
+    background: rgb(173, 172, 172);
+}
+.nav-menu-2 nav {
+    text-align: center;
+}
