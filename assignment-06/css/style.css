@@ -1,5 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
 }
