@@ -58,8 +58,9 @@
   padding: 20px;
   width: 400px;
   border-radius: 6px;
+  margin-inline: auto;
 }
-.contact-form .mail-subject{
+.contact-form .mail-subject {
   display: flex;
   gap: 20px;
 }
