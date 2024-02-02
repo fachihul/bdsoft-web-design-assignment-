@@ -12,6 +12,8 @@ Version:1.0.0
     --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
     --heading-font: "Lexend", sans-serif;
     --body-font: "Barlow", sans-serif;
+    --header-shadow: 4px 10px 40px rgba(146, 146, 146, 0.1);
+    --primary-color: #ff6666;
 }
 
 /* basic setup */
@@ -55,4 +57,21 @@ a {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+/* ******header section***** */
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--header-shadow);
+    padding: 5px 25px 5px 15px;
+}
+.nav-maenu a {
+    padding: 8px 25px;
+    color: var(--heading-color);
+    font-weight: 600;
+    transition: 0.3s;
+}
+.nav-maenu a:hover {
+    color: var(--primary-color);
 }
