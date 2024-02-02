@@ -71,12 +71,15 @@ a {
     color: var(--heading-color);
     font-weight: 600;
     transition: 0.3s;
+    position: relative;
 }
 .nav-maenu a:hover {
     color: var(--primary-color);
 }
 .header-right {
     display: flex;
+    align-items: center;
+    gap: 35px;
 }
 .template-btn {
     padding: 16px 24px;
