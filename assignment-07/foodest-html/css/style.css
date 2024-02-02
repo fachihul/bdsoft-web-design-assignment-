@@ -10,6 +10,8 @@ Version:1.0.0
     --heading-color: #25292d;
     --text-color: #666666;
     --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
+    --heading-font: "Lexend", sans-serif;
+    --body-font: "Barlow", sans-serif;
 }
 
 /* basic setup */
@@ -17,6 +19,7 @@ body {
     margin: 0;
     font-size: 16px;
     color: var(--text-color);
+    font-family: var(--body-font);
 }
 h1 {
     font-size: 72px;
@@ -43,4 +46,8 @@ h4,
 h5,
 h6 {
     color: var(--heading-color);
+    font-family: var(--heading-font);
+}
+a {
+    text-decoration: none;
 }
