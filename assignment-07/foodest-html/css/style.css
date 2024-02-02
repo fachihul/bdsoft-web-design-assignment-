@@ -2,5 +2,45 @@
 Template Name:Foodest HTML Template
 Author Name:Mohammed Fachihul Alam
 Version:1.0.0 
-
 */
+
+/* root variable */
+
+:root {
+    --heading-color: #25292d;
+    --text-color: #666666;
+    --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
+}
+
+/* basic setup */
+body {
+    margin: 0;
+    font-size: 16px;
+    color: var(--text-color);
+}
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+}
