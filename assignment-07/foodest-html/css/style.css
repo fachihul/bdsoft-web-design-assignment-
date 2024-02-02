@@ -75,3 +75,15 @@ a {
 .nav-maenu a:hover {
     color: var(--primary-color);
 }
+.header-right {
+    display: flex;
+}
+.template-btn {
+    padding: 16px 24px;
+    background: var(--primary-gradient);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: var(--heading-font);
+}
