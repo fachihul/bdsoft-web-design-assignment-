@@ -66,14 +66,23 @@ a {
     box-shadow: var(--header-shadow);
     padding: 5px 25px 5px 15px;
 }
-.nav-maenu a {
+.nav-menu a {
     padding: 8px 25px;
     color: var(--heading-color);
     font-weight: 600;
     transition: 0.3s;
     position: relative;
 }
-.nav-maenu a:hover {
+.nav-menu a::before {
+    content: "";
+    position: absolute;
+    width: calc(100%-50px);
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-image: var(--primary-gradient);
+}
+.nav-menu a:hover {
     color: var(--primary-color);
 }
 .header-right {
