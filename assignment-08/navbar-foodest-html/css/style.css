@@ -1,0 +1,122 @@
+/* 
+Template Name:Foodest HTML Template
+Author Name:Mohammed Fachihul Alam
+Version:1.0.0 
+*/
+
+/* root variable */
+
+:root {
+  --heading-color: #25292d;
+  --text-color: #666666;
+  --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
+  --heading-font: "Lexend", sans-serif;
+  --body-font: "Barlow", sans-serif;
+  --header-shadow: 4px 10px 40px rgba(146, 146, 146, 0.1);
+  --primary-color: #ff6666;
+}
+
+/* basic setup */
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: var(--body-font);
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* ******header section***** */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--header-shadow);
+  padding: 5px 25px 5px 15px;
+}
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu li {
+  display: inline-block;
+}
+.nav-menu a {
+  padding: 8px 25px;
+  color: var(--heading-color);
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+}
+.nav-menu a::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 50px);
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  background-image: var(--primary-gradient);
+  opacity: 0;
+  transition: 0.3s;
+}
+.nav-menu a:hover {
+  color: var(--primary-color);
+}
+.nav-menu a:hover::before {
+  opacity: 1;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.template-btn {
+  padding: 16px 24px;
+  background: var(--primary-gradient);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: var(--heading-font);
+}
+.mobile-menu-btn {
+  background: transparent;
+  border: 0;
+  font-size: 24px;
+  display: none;
+}
