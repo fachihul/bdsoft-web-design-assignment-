@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-menu {
+    background: gray;
+    text-align: right;
+}
+.nav-menu a {
+    font-size: 18px;
+    padding: 12px 15px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu-2 {
+    margin-top: 30px;
+    background: rgb(173, 172, 172);
+}
+.nav-menu-2 nav {
+    text-align: center;
+}
+.nav-menu-2 ul {
+    list-style: none;
+}
+.nav-menu-2 ul li {
+    display: inline-block;
+}
+.nav-menu-2 ul li a {
+    display: inline-block;
+    padding: 12px 15px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.navigation-bar {
+    background-color: gray;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.navigation-bar .right-nav a {
+    text-transform: capitalize;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 15px;
+    font-size: 18px;
+}
+.nav-third {
+    padding: 0 20px;
+    background: gray;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-third .menu-third ul {
+    list-style: none;
+}
+.nav-third .menu-third ul li {
+    display: inline-block;
+}
+.nav-third .menu-third ul li a {
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    text-transform: capitalize;
+}
