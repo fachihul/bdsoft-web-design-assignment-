@@ -7,40 +7,46 @@ Version:1.0.0
 /* root variable */
 
 :root {
-  --heading-color: #25292d;
-  --text-color: #666666;
-  --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
-  --heading-font: "Lexend", sans-serif;
-  --body-font: "Barlow", sans-serif;
-  --header-shadow: 4px 10px 40px rgba(146, 146, 146, 0.1);
-  --primary-color: #ff6666;
+    --heading-color: #25292d;
+    --text-color: #666666;
+    --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
+    --heading-font: "Lexend", sans-serif;
+    --body-font: "Barlow", sans-serif;
+    --header-shadow: 4px 10px 40px rgba(146, 146, 146, 0.1);
+    --primary-color: #ff6666;
+    --section-gradient: linear-gradient(
+        360deg,
+        #fff2f4 0.12%,
+        #fff2f4 65.05%,
+        rgba(255, 252, 252, 0) 100%
+    );
 }
 
 /* basic setup */
 body {
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  color: var(--text-color);
-  font-family: var(--body-font);
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: var(--text-color);
+    font-family: var(--body-font);
 }
 h1 {
-  font-size: 72px;
+    font-size: 72px;
 }
 h2 {
-  font-size: 36px;
+    font-size: 36px;
 }
 h3 {
-  font-size: 30px;
+    font-size: 30px;
 }
 h4 {
-  font-size: 24px;
+    font-size: 24px;
 }
 h5 {
-  font-size: 20px;
+    font-size: 20px;
 }
 h6 {
-  font-size: 18px;
+    font-size: 18px;
 }
 h1,
 h2,
@@ -48,75 +54,100 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  color: var(--heading-color);
-  font-family: var(--heading-font);
+    margin: 0;
+    color: var(--heading-color);
+    font-family: var(--heading-font);
 }
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 .container {
-  max-width: 1170px;
-  margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 /* ******header section***** */
 .header-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: var(--header-shadow);
-  padding: 5px 25px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--header-shadow);
+    padding: 5px 25px 5px 15px;
 }
 .nav-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .nav-menu li {
-  display: inline-block;
+    display: inline-block;
 }
 .nav-menu a {
-  padding: 8px 25px;
-  color: var(--heading-color);
-  font-weight: 600;
-  transition: 0.3s;
-  position: relative;
+    padding: 8px 25px;
+    color: var(--heading-color);
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
 }
 .nav-menu a::before {
-  content: "";
-  position: absolute;
-  width: calc(100% - 50px);
-  height: 2px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  background-image: var(--primary-gradient);
-  opacity: 0;
-  transition: 0.3s;
+    content: "";
+    position: absolute;
+    width: calc(100% - 50px);
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background-image: var(--primary-gradient);
+    opacity: 0;
+    transition: 0.3s;
 }
 .nav-menu a:hover {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 .nav-menu a:hover::before {
-  opacity: 1;
+    opacity: 1;
 }
 .header-right {
-  display: flex;
-  align-items: center;
-  gap: 35px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
 }
 .template-btn {
-  padding: 16px 24px;
-  background: var(--primary-gradient);
-  color: #fff;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 15px;
-  font-family: var(--heading-font);
+    padding: 16px 24px;
+    background: var(--primary-gradient);
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: var(--heading-font);
+    display: inline-block;
 }
 .mobile-menu-btn {
-  background: transparent;
-  border: 0;
-  font-size: 24px;
-  display: none;
+    background: transparent;
+    border: 0;
+    font-size: 24px;
+    display: none;
+}
+/* *******hero-section********* */
+.hero-section {
+    padding-top: 50px;
+    background-image: var(--section-gradient);
+}
+.hero-content {
+    display: flex;
+}
+.hero-left {
+    width: 66%;
+    flex-shrink: 0;
+    align-self: center;
+}
+.hero-left p {
+    max-width: 554px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.hero-right {
+    width: 34%;
+}
+.hero-left h1 span {
+    color: var(--primary-color);
 }
