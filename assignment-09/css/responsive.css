@@ -1,16 +1,29 @@
+@media (max-width: 1500px) {
+    .hero-right img {
+        max-width: 100%;
+        position: relative;
+    }
+    .rectangle-shape {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+    }
+}
 @media (max-width: 850px) {
-  .nav-menu {
-    display: none;
-  }
-  .header-right {
-    gap: 16px;
-  }
-  .mobile-menu-btn {
-    display: block;
-  }
+    .nav-menu {
+        display: none;
+    }
+    .header-right {
+        gap: 16px;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
 }
 @media (max-width: 470px) {
-  .template-btn {
-    display: none;
-  }
+    .template-btn {
+        display: none;
+    }
 }
