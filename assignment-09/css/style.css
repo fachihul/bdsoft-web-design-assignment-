@@ -64,8 +64,9 @@ a {
     text-decoration: none;
 }
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 img {
     max-width: 100%;
@@ -160,11 +161,12 @@ img {
 .hero-right img {
     max-width: initial;
 }
-.hero-left h1 span {
+.gradient-text {
     background-image: var(--primary-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .btn-group {
     display: flex;
     align-items: center;
@@ -224,4 +226,18 @@ img {
     z-index: -1;
     position: absolute;
     bottom: 10px;
+}
+/* *******category-section********* */
+.category-section {
+    padding: 120px 0;
+}
+.section-title {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+}
+.gradient-text {
+    background-image: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
