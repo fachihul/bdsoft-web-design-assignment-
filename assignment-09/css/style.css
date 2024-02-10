@@ -29,6 +29,7 @@ Version:1.0.0
     );
     --box-shadow: 4px 10px 30px rgba(107, 107, 107, 0.05);
     --hover-shadow: 10px 15px 40px rgba(152, 152, 152, 0.2);
+    --primary-shadow: -5px 0px 15px rgba(248, 97, 97, 0.3);
 }
 
 /* basic setup */
@@ -250,6 +251,8 @@ img {
     box-shadow: var(--box-shadow);
     max-width: 170px;
     transition: 0.3s;
+    position: relative;
+    border-radius: 4px;
 }
 .category-item .icon-wrapper {
     width: 74px;
@@ -263,4 +266,26 @@ img {
 }
 .category-item:hover {
     box-shadow: var(--hover-shadow);
+}
+.category-item .explore-btn {
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-gradient);
+    color: var(--white-color);
+    border-radius: 50%;
+    box-shadow: var(--primary-shadow);
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.category-item:hover .explore-btn {
+    opacity: 1;
+    visibility: visible;
 }
