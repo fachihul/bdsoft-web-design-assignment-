@@ -249,10 +249,10 @@ img {
   text-align: center;
   background: var(--white-color);
   box-shadow: var(--box-shadow);
-  max-width: 170px;
   transition: 0.3s;
   position: relative;
   border-radius: 4px;
+  width: 16%;
 }
 .category-item .icon-wrapper {
   width: 74px;
@@ -263,9 +263,24 @@ img {
   align-items: center;
   border-radius: 50%;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
 .category-item:hover {
   box-shadow: var(--hover-shadow);
+}
+.category-item .icon-wrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-gradient);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.5s;
 }
 .category-item .explore-btn {
   width: 35px;
@@ -291,4 +306,24 @@ img {
 }
 .category-item:hover .icon-wrapper {
   background: var(--primary-gradient);
+}
+.category-item .icon-wrapper .icon-white {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+}
+.category-item:hover .icon-wrapper .icon-color {
+  transform: scale(0);
+}
+.category-item:hover .icon-wrapper .icon-white {
+  /* opacity: 1; */
+  transform: translate(-50%, -50%) scale(1);
+}
+.category-item:hover .icon-wrapper .icon-wrapper::after {
+  opacity: 1;
+}
+.category-row {
+  display: flex;
+  gap: 24px;
 }
