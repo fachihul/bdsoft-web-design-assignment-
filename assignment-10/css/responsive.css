@@ -34,10 +34,16 @@
     .hero-left h1 {
         font-size: 60px;
     }
+    .category-row {
+        flex-wrap: wrap;
+    }
 }
 @media (max-width: 900px) {
     .hero-left {
         width: 100%;
+    }
+    .category-item {
+        width: calc(33% - 62px);
     }
 }
 @media (max-width: 850px) {
@@ -54,6 +60,11 @@
         font-size: 50px;
     }
 }
+@media (max-width: 630px) {
+    .category-item {
+        width: calc(50% - 60px);
+    }
+}
 @media (max-width: 470px) {
     .header-right .template-btn {
         display: none;
@@ -63,5 +74,8 @@
     }
     .rectangle-shape {
         left: 0;
+    }
+    .category-item {
+        width: 100%;
     }
 }
