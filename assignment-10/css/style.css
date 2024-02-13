@@ -10,6 +10,7 @@ Version:1.0.0
     --white-color: #fff;
     --heading-color: #25292d;
     --text-color: #666666;
+    --subtitle-font: "Lily Script One", system-ui;
     --primary-gradient: linear-gradient(to right, #ffb23f, #ff6666);
     --heading-font: "Lexend", sans-serif;
     --body-font: "Barlow", sans-serif;
@@ -80,7 +81,7 @@ img {
     max-width: 100%;
 }
 .mb-50 {
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
 }
 /* ******header section***** */
 .header-row {
@@ -336,4 +337,26 @@ img {
     display: flex;
     gap: 24px;
     justify-content: center;
+}
+/******about-section********/
+
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.about-row .about-left {
+    width: calc(50% - 30px);
+}
+.foodest-subtitle {
+    background: linear-gradient(
+        275.98deg,
+        rgba(248, 97, 97, 0.1) 0%,
+        rgba(255, 178, 63, 0.1) 100%
+    );
+    display: inline-block;
+}
+.foodest-subtitle span {
+    font-size: 20px;
+    font-family: var(--subtitle-font);
 }
