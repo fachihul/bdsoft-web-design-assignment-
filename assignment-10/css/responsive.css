@@ -37,6 +37,9 @@
     .category-row {
         flex-wrap: wrap;
     }
+    .about-row {
+        gap: 24px;
+    }
 }
 @media (max-width: 900px) {
     .hero-left {
