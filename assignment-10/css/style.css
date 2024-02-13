@@ -344,9 +344,13 @@ img {
     display: flex;
     align-items: center;
     gap: 60px;
+    justify-content: space-between;
 }
 .about-row .about-left {
     width: calc(50% - 30px);
+}
+.about-row .about-right {
+    width: calc(44%);
 }
 .foodest-subtitle {
     background: linear-gradient(
@@ -355,8 +359,13 @@ img {
         rgba(255, 178, 63, 0.1) 100%
     );
     display: inline-block;
+    padding: 4px 20px;
+    border-radius: 5px;
 }
 .foodest-subtitle span {
     font-size: 20px;
     font-family: var(--subtitle-font);
+}
+.about-right h3 {
+    margin-top: 15px;
 }
