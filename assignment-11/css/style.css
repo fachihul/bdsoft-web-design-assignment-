@@ -16,6 +16,7 @@ Version:1.0.0
     --body-font: "Barlow", sans-serif;
     --header-shadow: 4px 10px 40px rgba(146, 146, 146, 0.1);
     --primary-color: #ff6666;
+    --section-bg: #fff2f4;
     --section-gradient: linear-gradient(
         360deg,
         #fff2f4 0.12%,
@@ -462,3 +463,30 @@ img {
     flex-shrink: 0;
 }
 /******wcs-section-end*******/
+/******menu-section-start*******/
+.menu-section {
+    background: var(--section-bg);
+    padding: 120px 0;
+}
+.menu-section-title {
+    text-align: center;
+    max-width: 590px;
+    margin: 0 auto;
+}
+.menu-section .foodest-subtitle {
+    margin-bottom: 24px;
+}
+.menu-card {
+    width: 270px;
+    background: var(--white-color);
+    border-radius: 10px;
+    padding: 26px 20px;
+}
+.menu-card .product-image {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.menu-card .meta-text {
+    margin-top: 15px;
+}
+/******menu-section-end*******/
