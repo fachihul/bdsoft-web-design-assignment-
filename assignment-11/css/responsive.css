@@ -46,6 +46,9 @@
     .about-row .about-right {
         width: calc(50% - 12px);
     }
+    .menu-card {
+        width: calc(33% - 60px);
+    }
 }
 @media (max-width: 900px) {
     .about-row {
@@ -70,6 +73,12 @@
     .wcs-right {
         width: 100% !important;
     }
+    .menu-card-row {
+        gap: 24px;
+    }
+    .menu-card {
+        width: calc(50% - 60px);
+    }
 }
 @media (max-width: 850px) {
     .nav-menu {
@@ -91,6 +100,12 @@
     }
     .wcs-horizontal-box {
         gap: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .menu-card {
+        max-width: 300px;
+        width: calc(100%);
     }
 }
 @media (max-width: 470px) {
