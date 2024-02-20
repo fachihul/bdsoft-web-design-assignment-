@@ -591,12 +591,20 @@ img {
 }
 /******offered-section-end*******/
 /******team-section-start*******/
+.team-row {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
 .team-single {
-    max-width: 300px;
+    /* max-width: 300px; */
     box-shadow: var(--box-shadow-team);
     border-radius: 5px;
     position: relative;
     transition: 0.3s;
+    overflow: hidden;
+    width: 25%;
 }
 .team-single .team-content {
     position: absolute;
