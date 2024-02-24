@@ -704,7 +704,43 @@ img {
 .blog-top-row .offered-section-title {
     max-width: 570px;
 }
+.blog-row {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
 .blog-single-card {
-    max-width: 570px;
+    /* max-width: 570px; */
+}
+.blog-single-card img {
+    border-radius: 10px;
+}
+.blog-single-card .blog-card-content {
+    padding: 20px 24px;
+    background-color: var(--white-color);
+    box-shadow: var(--testimonial-shadow-hover);
+    width: 80%;
+    margin-left: 50%;
+    margin-top: -20px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+}
+.blog-meta {
+    margin-bottom: 18px;
+}
+.blog-meta span {
+    margin-right: 15px;
+}
+.blog-meta span i {
+    margin-right: 5px;
+}
+.blog-explore-btn {
+    bottom: -12px;
+    right: 15px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.blog-single-card:hover .blog-explore-btn {
+    opacity: 1;
 }
 /******blog-section-end*******/
