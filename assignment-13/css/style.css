@@ -743,4 +743,9 @@ img {
 .blog-single-card:hover .blog-explore-btn {
     opacity: 1;
 }
+.mobile-explore-btn {
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
 /******blog-section-end*******/
