@@ -4,3 +4,25 @@ body {
 /* img {
   max-width: 100%;
 } */
+.theme-accordion .accordion-header a {
+  background-color: green;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 24px;
+  display: block;
+  position: relative;
+}
+.theme-accordion .accordion-body {
+  padding: 15px 24px;
+  background-color: #fbfafa;
+}
+.theme-accordion .accordion-header a.collapsed {
+  background-color: #fbfafa;
+  color: black;
+}
+.theme-accordion .accordion-header a::after {
+  content: "\f107";
+  position: absolute;
+  font-family: "FontAwesome";
+}
