@@ -12,6 +12,7 @@ body {
   padding: 10px 24px;
   display: block;
   position: relative;
+  overflow: hidden;
 }
 .theme-accordion .accordion-body {
   padding: 15px 24px;
@@ -21,8 +22,18 @@ body {
   background-color: #fbfafa;
   color: black;
 }
-.theme-accordion .accordion-header a::after {
-  content: "\f107";
+.accordion-item .accordion-header a::after {
+  content: "\f106";
   position: absolute;
+  right: 0;
+  top: -5px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent
+  color: black;
+  /* border-radius: 10px; */
   font-family: "FontAwesome";
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
 }
