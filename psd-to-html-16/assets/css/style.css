@@ -4,33 +4,33 @@
 /* font-family: "Roboto", sans-serif; */
 /* Basic Settings */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 h1 {
-  font-size: 40px;
+    font-size: 40px;
 }
 h2 {
-  font-size: 36px;
+    font-size: 36px;
 }
 h3 {
-  font-size: 30px;
+    font-size: 30px;
 }
 h4 {
-  font-size: 24px;
+    font-size: 24px;
 }
 h5 {
-  font-size: 20px;
+    font-size: 20px;
 }
 h6 {
-  font-size: 18px;
+    font-size: 18px;
 }
 h1,
 h2,
@@ -38,67 +38,144 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 img {
-  width: 100%;
+    width: 100%;
 }
 .container {
-  max-width: 1050px;
-  margin: auto;
+    max-width: 1050px;
+    margin: auto;
 }
 
 /* Header Section Start */
 .header-section {
-  background: #864f9c;
+    background: #864f9c;
 }
 .header-section .row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .header-section .nav-menu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .header-section .nav-menu ul li {
-  display: inline-block;
+    display: inline-block;
 }
 .header-section .nav-menu ul li a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 25px 15px;
-  color: white;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 500px;
-  transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500px;
+    transition: 0.3s;
 }
 .header-section .nav-menu ul li a:hover {
-  background-color: #633a79;
+    background-color: #633a79;
 }
 /* Header Section End */
 /* Hero Section Start */
 .hero-section {
-  background-color: #864f9c;
-  padding: 150px 0;
+    background-color: #864f9c;
+    padding: 150px 0;
 }
 .hero-section .hero-content {
-  text-align: center;
+    text-align: center;
 }
 .hero-section .hero-content h1 {
-  color: white;
+    color: white;
 }
-.hero-section .hero-content a{
-  background-color: orange;
-  text-decoration: none;
-  padding: 20px 60px;
-  text-transform: uppercase;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 500;
-  color: white;
-  border-radius: 4px;
-  margin-top: 40px;
+.hero-section .hero-content a {
+    background-color: orange;
+    text-decoration: none;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 4px;
+    margin-top: 40px;
 }
+/* Service-Section-Start */
+.service-section {
+    background: #17c2a4;
+    padding: 120px 0;
+}
+.service-section .title-area {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+.service-section .title-area h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.service-section .title-area hr {
+    width: 70px;
+    margin: 10px auto;
+    border: 0;
+    border-bottom: 4px solid #14a58c;
+}
+.service-section .title-area p {
+    color: #fff;
+    margin-top: 25px;
+}
+.service-section .services-content {
+    margin-top: 60px;
+}
+.service-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-section .row .col {
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.service-section .column-content {
+    text-align: center;
+}
+.service-section .column-content .figure-img img {
+    width: 120px;
+}
+.service-section .column-content h4 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+}
+.service-section .column-content p {
+    color: #fff;
+    margin-top: 10px;
+}
+/* Service-Section-End */
+/* Team-Section-Start */
+.team-section {
+    background: #e7f1f8;
+    padding: 120px 0;
+}
+.team-section .title-area {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+.team-section .title-area h2 {
+    color: #3c4761;
+    text-transform: uppercase;
+}
+.team-section .title-area hr {
+    width: 70px;
+    margin: 10px auto;
+    border: 0;
+    border-bottom: 4px solid #d5dfe8;
+}
+.team-section .title-area p {
+    color: #5d677b;
+    margin-top: 25px;
+}
+/* Team-Section-End */
