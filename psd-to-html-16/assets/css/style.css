@@ -178,4 +178,8 @@ img {
     color: #5d677b;
     margin-top: 25px;
 }
+.team-section .team-member .row {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Team-Section-End */
