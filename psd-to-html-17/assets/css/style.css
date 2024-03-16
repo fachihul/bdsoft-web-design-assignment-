@@ -398,7 +398,7 @@ img {
     max-width: 860px;
     margin: auto;
 }
-.contact-area form .form-field{
+.contact-area form .form-field {
     display: flex;
     gap: 20px;
 }
@@ -416,5 +416,21 @@ textarea {
 .contact-area form input::placeholder {
     color: #ffffff;
 }
-
+.contact-area form .submit-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-area form .submit-btn button {
+    text-decoration: none;
+    background-color: #30bae7;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 5px solid #27afdc;
+    
+}
 /* Contact-area-end */
