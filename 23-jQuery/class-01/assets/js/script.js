@@ -43,6 +43,8 @@ $(".animate").click(function () {
 $(".chain").click(function () {
     $(".box").slideUp().slideDown();
 });
-$(".chain").click(function name(params) {
-    
-});
+$(".chain").click(function name(params) {});
+$(".ancestor").parentsUntil(".container").addClass("child");
+$(".container").find("h1").addClass("find");
+$("h1").siblings().addClass("siblings");
+$(".text-group p").last().css("color", "red");
