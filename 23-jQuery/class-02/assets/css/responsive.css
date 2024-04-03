@@ -1,0 +1,165 @@
+@media (max-width: 1500px) {
+  .hero-right img {
+    max-width: 100%;
+    position: relative;
+  }
+  .rectangle-shape {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+  }
+}
+@media (max-width: 1200px) {
+  .rectangle-shape {
+    width: 310px;
+    height: 310px;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+  }
+
+  .hero-content {
+    flex-wrap: wrap;
+  }
+  .hero-left {
+    width: 80%;
+    /* flex-shrink: 0;
+        align-self: center; */
+  }
+  .hero-right {
+    width: 100%;
+  }
+  .hero-left h1 {
+    font-size: 60px;
+  }
+  .category-row {
+    flex-wrap: wrap;
+  }
+  .about-row {
+    gap: 24px;
+  }
+  .about-row .about-left {
+    width: calc(50% - 12px);
+  }
+  .about-row .about-right {
+    width: calc(50% - 12px);
+  }
+  .menu-card {
+    width: calc(33% - 60px);
+  }
+}
+@media (max-width: 992px) {
+  .team-row {
+    flex-wrap: wrap;
+  }
+  .team-single {
+    width: calc(33% - 18px);
+  }
+}
+@media (max-width: 900px) {
+  .about-row {
+    flex-wrap: wrap;
+  }
+  .about-row .about-left {
+    width: 100%;
+  }
+  .about-row .about-right {
+    width: 100%;
+  }
+  .hero-left {
+    width: 100%;
+  }
+  .category-item {
+    width: calc(33% - 62px);
+  }
+
+  .wcs-left {
+    width: 100% !important;
+  }
+  .wcs-right {
+    width: 100% !important;
+  }
+  .menu-card-row {
+    gap: 24px;
+  }
+  .menu-card {
+    width: calc(50% - 60px);
+  }
+}
+@media (max-width: 850px) {
+  .nav-menu {
+    display: none;
+  }
+  .header-right {
+    gap: 16px;
+  }
+  .mobile-menu-btn {
+    display: block;
+  }
+  .hero-left h1 {
+    font-size: 50px;
+  }
+  .offered-row {
+    flex-wrap: wrap;
+  }
+  .offered-row .offered-details {
+    width: 100%;
+  }
+  .offered-row .product-image {
+    width: 100%;
+    /* display: inline-block;
+    margin: 0 auto; */
+  }
+}
+@media (max-width: 768px) {
+  .team-row {
+    gap: 20px;
+  }
+  .team-single {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 630px) {
+  .category-item {
+    width: calc(50% - 60px);
+  }
+  .wcs-horizontal-box {
+    gap: 16px;
+  }
+  .testimonial-section {
+    margin-top: 80px;
+  }
+  .testimonial-box {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .testimonial-content {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .menu-card {
+    max-width: 300px;
+    width: calc(100%);
+  }
+}
+@media (max-width: 470px) {
+  .header-right .template-btn {
+    display: none;
+  }
+  .hero-left h1 {
+    font-size: 42px;
+  }
+  .rectangle-shape {
+    left: 0;
+  }
+  .category-item {
+    width: 100%;
+  }
+  .team-single {
+    width: 100%;
+  }
+}
