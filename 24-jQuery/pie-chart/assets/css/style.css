@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+.img-wrapper {
+    margin-bottom: 30px;
+}
+.filter-btns {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.circle-wrapper {
+    display: inline-block;
+    position: relative;
+}
+.circle-wrapper .percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

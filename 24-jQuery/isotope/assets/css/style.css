@@ -1,0 +1,11 @@
+img {
+    width: 100%;
+}
+.img-wrapper {
+    margin-bottom: 30px;
+}
+.filter-btns {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
