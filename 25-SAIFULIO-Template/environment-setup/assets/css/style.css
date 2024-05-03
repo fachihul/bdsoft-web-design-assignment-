@@ -1,0 +1,98 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* Theme Default CSS */
+
+:root {
+    --heading-font: "Sen", sans-serif;
+    --template-font: "DM Sans", sans-serif;
+    --primary-color: #4c40f7;
+    --secondary-color: #14132b;
+}
+* {
+    margin: 0;
+}
+body {
+    font-family: var(--template-font);
+}
+p {
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 65px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 30px;
+}
+h5 {
+    font-size: 24px;
+}
+h6 {
+    font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 1200px;
+}
+/* Header Area */
+.header-area {
+    margin-top: 40px;
+}
+.header-area .topbar {
+    background: var(--secondary-color);
+    padding: 10px 15px;
+}
+.header-area .topbar-left {
+    display: flex;
+}
+.header-area .topbar-left .topbar-item:last-child {
+    margin-left: 35px;
+}
+.header-area .topbar-left .topbar-item a {
+    color: #ffffff;
+}
+.header-area .topbar-left .topbar-item a .icon-wrapper {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.2);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.header-area .topbar-right .topbar-social a {
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 6px;
+    transition: 0.3s;
+}
+.header-area .topbar-right .topbar-social a:hover{
+    color: var(--primary-color);
+}
