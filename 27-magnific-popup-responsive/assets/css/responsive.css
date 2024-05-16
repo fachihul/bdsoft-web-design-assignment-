@@ -1,0 +1,42 @@
+@media (max-width: 1300px) {
+}
+@media (max-width: 1200px) {
+    .header-area .header-btn a {
+        text-align: right;
+        padding: 15px 13px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 800px;
+    }
+    .hero-area .hero-img img {
+        display: none;
+    }
+    .header-area .topbar-left .topbar-item a span {
+        display: none;
+    }
+    .header-area .desktop-menu {
+        display: none;
+    }
+    .header-area .logo-wrapper a {
+        position: initial;
+        max-width: 180px;
+        display: inline-block;
+    }
+    .header-area .topbar-left .topbar-item:last-child {
+        margin-left: 15px;
+    }
+    .header-area .header-btn button{
+        display: inline-block;
+    }
+}
+@media (max-width: 575.98px) {
+    .header-area .topbar-item {
+        padding: 8px 10px;
+    }
+    .header-area .topbar-right .lang-switcher {
+        display: none;
+    }
+}
