@@ -30,10 +30,24 @@
     .header-area .header-btn button {
         display: inline-block;
     }
+    .about-section .about-right {
+        margin-top: 50px;
+    }
+    .about-section .about-left img {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 96%;
+    }
 }
 @media (max-width: 575.98px) {
     h1 {
         font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
     }
     .header-area .topbar-item {
         padding: 8px 10px;
@@ -44,18 +58,33 @@
     .header-area .header-btn a {
         display: none;
     }
+    .about-section .about-bottom .md-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-section .about-bottom .md-wrapper .md-content{
+        margin-left: 0;
+        margin-top: 15px;
+    }
 }
 @media (max-width: 480px) {
     .hero-area .hero-left .subtitle span {
         padding-left: 0;
     }
-    .hero-area .hero-left .subtitle span::before{
+    .hero-area .hero-left .subtitle span::before {
         bottom: -6px;
     }
     .hero-area .hero-left .hero-btns {
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+    .about-section .about-bottom .md-wrapper .md-content h5{
+        font-size: 20px;
+    }
+    .about-section .about-bottom .md-wrapper .md-content span{
+        font-size: 14px;
     }
 }
 /* Hero Area Responsive End */
