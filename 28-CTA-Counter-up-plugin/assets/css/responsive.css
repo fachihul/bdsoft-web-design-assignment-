@@ -67,6 +67,10 @@
         margin-left: 0;
         margin-top: 15px;
     }
+    .ct-area .ct-column{
+        max-width: 300px;
+        margin-inline: auto;
+    }
 }
 @media (max-width: 480px) {
     .hero-area .hero-left .subtitle span {

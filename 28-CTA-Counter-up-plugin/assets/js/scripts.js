@@ -4,7 +4,7 @@ $(document).ready(function () {
         $(".mobile-menu").slideToggle();
     });
     $(".mobile-menu nav li.has-submenu").click(function () {
-        $(this).children('ul').slideToggle();
+        $(this).children("ul").slideToggle();
     });
     // Video Popup
     $(".video-btn a").magnificPopup({
@@ -19,4 +19,9 @@ $(document).ready(function () {
             },
         },
     });
+});
+// counter-up plugin
+$(".counter").counterUp({
+    delay: 10,
+    time: 1000,
 });
